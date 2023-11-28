@@ -13,6 +13,12 @@ body {
     z-index: 1000;
 }
 
+li:hover {
+    background-color: rgb(60, 175, 60);
+    font-size: 19px;
+    border-radius: 5px;
+}
+
 #display {
     text-align: center;
     margin-top: 1000px;
