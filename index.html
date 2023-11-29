@@ -14,29 +14,39 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="#">THE STORE</a>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="Cart">
-                        <a class="nav-link active" aria-current="page" href="#">Cart</a>
-                    </li>
-                    <li id="Electronics">
-                        <a class="nav-link" href="#">Electronics</a>
-                    </li>
-                    <li id="Jewelery">
-                        <a class="nav-link" href="#">Jewelery</a>
-                    </li>
-                    <li id="Mens Clothing">
-                        <a class="nav-link" href="#">Men's Clothing</a>
-                    </li>
-                    <li id="Womens Clothing">
-                        <a class="nav-link Women's Clothig" href="#Women's Clothing">Women's Clothing</a>
-                    </li>
-                </ul>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button class="btn btn-primary me-md-2" type="button">Cart</button>
+                    <ul class="navbar-nav">
+                        <li id="Electronics" >
+                            <a class="nav-link"  href="#">Electronics</a>
+                        </li>
+                        <li id="Jewelery">
+                            <a class="nav-link" href="#">Jewelery</a>
+                        </li>
+                        <li id="Mens Clothing">
+                            <a class="nav-link" href="#">Men's Clothing</a>
+                        </li>
+                        <li id="Womens Clothing">
+                            <a class="nav-link Women's Clothig" href="#Women's Clothing">Women's Clothing</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
 
     <!--Display section-->
-    <div id="display"></div>
+    <div id="display" class="row row-cols-1 row-cols-md-1 g-4">
+        <!-- <div class="col">
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                        content. This content is a little bit longer.</p>
+                </div>
+            </div> -->
+        </div>
 
     <!--Footer-->
     <footer class="copyright">
