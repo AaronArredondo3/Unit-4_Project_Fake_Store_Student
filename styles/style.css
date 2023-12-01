@@ -5,7 +5,7 @@ body {
     overflow-x: hidden;
     background-color: black;
 }
-
+/* Styling for the Navbar */
 .navbar {
     font-weight: bold;
     width: 100%;
@@ -15,6 +15,7 @@ body {
     font-size: 15px;
 }
 
+/* Styling for each category to make it responsive */
 li:hover {
     background-color: yellow;
     font-size: 19px;
@@ -24,28 +25,19 @@ li:hover {
 #display {
     text-align: center;
     margin-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
-.card img {
-    max-height: 100%;
-    object-fit: contain;
-}
-
-.card {
-    width: 300px;
-    height: 100%;
-    margin: 10px;
-    border: 3px solid rgb(198, 70, 70);
-
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+/* Styling for the Cards */
+.col {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5px;
+    width: 290px;
+    height: 100%;
+    border-radius: 5px;
     flex-direction: column;
-    padding: 2rem;
 }
 
 footer {
@@ -63,3 +55,4 @@ h4 {
     font-size: 17px;
     text-align: center;
 }
+
